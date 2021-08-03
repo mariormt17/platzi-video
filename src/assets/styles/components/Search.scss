@@ -9,6 +9,10 @@
   border-radius: 0px 0px 40px 40px;
 }
 
+.main__logo {
+  max-width: 400px;
+}
+
 .main__title {
   color: white;
   font-size: 25px;
@@ -29,5 +33,5 @@
 }
 
 ::placeholder {
-  color: white; 
+  color: white;
 }
