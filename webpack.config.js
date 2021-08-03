@@ -35,6 +35,17 @@ module.exports = {
           'css-loader',
           'sass-loader'
         ]
+      },
+      {
+        test: /\.(png|gif|svg|jpg)$/,
+        use: [
+          {
+            'loader': 'file-loader',
+            options: {
+              name: 'assets/[hash].[ext]'
+            }
+          }
+        ]
       }
     ],
   },
